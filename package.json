@@ -347,9 +347,9 @@
 	},
 	"devDependencies": {
 		"@types/chai": "5.0.1",
-		"@types/node": "22.13.1",
+		"@types/node": "22.13.4",
 		"@types/sinon": "17.0.3",
-		"chai": "5.1.2",
+		"chai": "5.2.0",
 		"glob": "11.0.1",
 		"lint-staged": "15.4.3",
 		"rimraf": "6.0.1",
