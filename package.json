@@ -372,7 +372,7 @@
         "watch-tests": "rimraf out && tsc -p . -w --outDir out"
     },
     "dependencies": {
-        "axios": "1.8.4",
+        "axios": "1.9.0",
         "node-stream-zip": "1.15.0",
         "vscode-jsonrpc": "8.2.1"
     },
@@ -380,7 +380,7 @@
         "@types/chai": "5.2.1",
         "@types/gulp": "4.0.17",
         "@types/mocha": "10.0.10",
-        "@types/node": "22.14.1",
+        "@types/node": "22.15.2",
         "@types/sinon": "17.0.4",
         "@types/vscode": "1.99.1",
         "@typescript-eslint/eslint-plugin": "8.31.0",
@@ -410,7 +410,7 @@
         "vinyl-fs": "4.0.0",
         "vscode-extension-tester": "8.14.1",
         "vscode-nls-dev": "4.0.4",
-        "webpack": "5.99.6",
+        "webpack": "5.99.7",
         "webpack-cli": "6.0.1"
     },
     "lint-staged": {
