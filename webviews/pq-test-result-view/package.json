@@ -1,6 +1,28 @@
 {
 	"name": "pq-test-result-view",
+	"version": "0.0.1",
+	"private": false,
 	"description": "The web view for pqtest results",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPowerquerySdk#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPowerquerySdk/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPowerquerySdk.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"scripts": {
 		"audit": "npm audit",
 		"build": "npm run clean && webpack --config config/webpack.prod.js",
@@ -22,5 +44,8 @@
 		"rimraf": "6.0.1",
 		"sass-loader": "16.0.5",
 		"style-loader": "4.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
